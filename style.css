@@ -61,39 +61,34 @@ li::before {
   animation: float 3s ease-in-out infinite;
 }
 
-/* Add at the end of your style.css */
+/* Slide Animation's */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 1s ease-out forwards;
 }
-
 @keyframes fadeInUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 .slide-in-left {
   opacity: 0;
   transform: translateX(-50px);
   animation: slideInLeft 1s ease-out forwards;
 }
-
 .slide-in-right {
   opacity: 0;
   transform: translateX(50px);
   animation: slideInRight 1s ease-out forwards;
 }
-
 @keyframes slideInLeft {
   to {
     opacity: 1;
     transform: translateX(0);
   }
 }
-
 @keyframes slideInRight {
   to {
     opacity: 1;
@@ -101,7 +96,7 @@ li::before {
   }
 }
 
-/* my PIC */
+/* Picture Animation */
 @keyframes float {
   0% {
     transform: translateY(0);
@@ -114,11 +109,10 @@ li::before {
   }
 }
 
-/*cursor*/
+/*Cursor/Pointer Changes*/
 /*body {
   cursor: pointer;
 }*/
-
 body {
   cursor: url('https://cdn.custom-cursor.com/db/22802/32/color-pixels-carolina-blue-cursor.png'), auto;
 }
