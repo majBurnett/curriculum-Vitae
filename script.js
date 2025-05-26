@@ -1,4 +1,3 @@
-
 // Placeholder for interactivity or enhancements
 console.log('Modern CV loaded successfully.');
 // Apply animations on DOM load
