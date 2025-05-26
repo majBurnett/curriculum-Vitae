@@ -114,3 +114,8 @@ li::before {
     transform: translateY(0);
   }
 }
+
+/*cursor*/
+body {
+  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=227903'), auto;
+}
