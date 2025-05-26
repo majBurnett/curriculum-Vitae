@@ -54,7 +54,6 @@ li::before {
   display: inline-block;
   width: 1em;
 }
-
 .avatar {
   width: 120px;
   height: auto;
@@ -115,4 +114,3 @@ li::before {
     transform: translateY(0);
   }
 }
-
