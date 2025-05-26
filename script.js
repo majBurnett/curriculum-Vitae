@@ -1,11 +1,11 @@
-// Placeholder for interactivity or enhancements
+//1. Placeholder for interactivity or enhancements
 console.log('Modern CV loaded successfully.');
-// Apply animations on DOM load
+//2. Apply animations on DOM load
 window.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.sidebar').classList.add('slide-in-left');
   document.querySelector('.main').classList.add('slide-in-right');
 
-  // Fade in each section on scroll
+  //3. Fade in each section on scroll
   const sections = document.querySelectorAll('.section');
 
   const revealOnScroll = () => {
@@ -19,5 +19,5 @@ window.addEventListener('DOMContentLoaded', () => {
   };
 
   window.addEventListener('scroll', revealOnScroll);
-  revealOnScroll(); // Initial check
+  revealOnScroll(); //4. Initial check
 });
