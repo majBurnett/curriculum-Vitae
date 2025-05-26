@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -21,7 +20,7 @@ body {
 }
 h1 {
   font-size: 2.5em;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 h2 {
   color: #00bfff;
@@ -37,7 +36,7 @@ p, li {
 }
 .contact-info {
   margin: 20px 0;
-  font-size: 0.9em;
+  /*font-size: 0.9em;*/
 }
 .contact-info i {
   margin-right: 8px;
@@ -55,7 +54,7 @@ li::before {
   width: 1em;
 }
 .avatar {
-  width: 120px;
+  width: 220px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 1rem;
@@ -113,4 +112,13 @@ li::before {
   100% {
     transform: translateY(0);
   }
+}
+
+/*cursor*/
+/*body {
+  cursor: pointer;
+}*/
+
+body {
+  cursor: url('https://cdn.custom-cursor.com/db/22802/32/color-pixels-carolina-blue-cursor.png'), auto;
 }
