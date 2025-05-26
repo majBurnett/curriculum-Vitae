@@ -55,6 +55,14 @@ li::before {
   width: 1em;
 }
 
+.avatar {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  animation: float 3s ease-in-out infinite;
+}
+
 /* Add at the end of your style.css */
 .fade-in {
   opacity: 0;
@@ -94,3 +102,17 @@ li::before {
     transform: translateX(0);
   }
 }
+
+/* my PIC */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
