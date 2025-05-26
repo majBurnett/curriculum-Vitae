@@ -117,5 +117,5 @@ li::before {
 
 /*cursor*/
 body {
-  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=227903'), auto;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=227903), auto;
 }
